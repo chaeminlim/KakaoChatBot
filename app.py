@@ -48,7 +48,7 @@ def skill():
                         {
                             "label": "first button",
                             "action": "message",
-                            "messageText" : "first button clicked"
+                            "webLinkUrl" : "https://google.com"
                         }
                         ]
                     }
