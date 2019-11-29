@@ -35,7 +35,7 @@ def skill():
             "outputs": [
                 {
                     "simpleText": {
-                        "text" : "아래 노란 버튼이 퀵 리플라이"
+                        "text" : "user key:" + str(request.json['userRequest']['utterance'])
                     }
                 }
             ],
