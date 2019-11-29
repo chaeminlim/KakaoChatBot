@@ -45,11 +45,15 @@ def skill():
                         }
                     },                       
                         "buttons":[
-                        {
-                            "label": "call",
-                            "action": "phone",
-                            "phoneNumber" : "010-0000-0000"
-                        }
+                            {
+                                "label": "call",
+                                "action": "phone",
+                                "phoneNumber" : "010-0000-0000"
+                            },
+                            {
+                                "label" : "share",
+                                "action" : "share"
+                            }
                         ]
                     }
                 }
