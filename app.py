@@ -46,9 +46,9 @@ def skill():
                     },                       
                         "buttons":[
                         {
-                            "label": "first button",
-                            "action": "webLink",
-                            "webLinkUrl" : "https://google.com"
+                            "label": "call",
+                            "action": "phone",
+                            "phoneNumber" : "010-0000-0000"
                         }
                         ]
                     }
